@@ -1,4 +1,4 @@
-```sql-- Revising the Select Query I
+-- Revising the Select Query I
 SELECT *
 FROM CITY
 WHERE CountryCode LIKE 'USA' AND POPULATION > 100000;
@@ -96,4 +96,4 @@ ORDER BY name ASC;
 SELECT name 
 FROM Employee
 WHERE (salary > 2000) and (months < 10)
-ORDER BY employee_id asc;```
+ORDER BY employee_id asc;
